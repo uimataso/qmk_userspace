@@ -1,0 +1,41 @@
+// clang-format off
+COMB(DEFAULT_COMBO_START,  XXXXXXX,  XXXXXXX)
+
+COMB(DEF_BS,       KC_BSPC,                 HM_J, HM_K)              // BS
+COMB(DEF_CBS,      C(KC_BSPC),              HM_J, HM_K, HM_L)        // Ctrl-BS
+COMB(DEF_COLN,     KC_COLN,                       HM_K, HM_L)        // :
+COMB(DEF_DEL,      KC_DEL,                  KC_H, HM_J)              // DEL
+
+COMB(DEF_CTRL_B,   A(KC_B),                 HM_S, HM_D)              // A-b Tmux prefix
+COMB(DEF_ESC,      KC_ESC,                        HM_D, HM_F)        // ESC
+COMB(DEF_CAP_WORD, QK_CAPS_WORD_TOGGLE,     HM_S,       HM_F)        // Cap word
+// COMB(DEF_IM,       A(C(S(KC_I))),           HM_S, HM_D, HM_F)        // Change Input Method
+COMB(DEF_INS,      KC_INS,                  HM_F, KC_G)              // INS
+
+COMB(DEF_EQL,      KC_EQL,                  KC_U, KC_I)              // =
+COMB(DEF_MINS,     KC_MINS,                       KC_I, KC_O)        // -
+
+COMB(DEF_Q,        KC_Q,                    KC_W, KC_E)              // Q
+COMB(DEF_TAB,      KC_TAB,                        KC_E, KC_R)        // TAB
+COMB(DEF_HELP,     ST_HELP,                 KC_W, KC_E, KC_R)        // --help
+
+COMB(DEF_QUOT,     KC_QUOT,                 KC_M, KC_COMM)           // '
+COMB(DEF_SCLN,     KC_SCLN,                       KC_COMM, KC_DOT)   // ;
+COMB(DEF_PIPE,     KC_PIPE,                 KC_M, KC_COMM, KC_DOT)   // |
+COMB(DEF_AMPR,     KC_AMPR,                 KC_M,          KC_DOT)   // &
+
+COMB(DEF_DQUO,     KC_DQUO,                 KC_X, KC_C)              // "
+COMB(DEF_Z,        KC_Z,                          KC_C, NA_V)        // Z
+COMB(DEF_EXLM,     KC_EXLM,                 KC_X, KC_C, NA_V)        // !
+COMB(DEF_QUES,     KC_QUES,                 KC_X,       NA_V)        // ?
+
+COMB(NUM_BS,       KC_BSPC,                 KC_PLUS, KC_MINS)
+COMB(SYM_BS,       KC_BSPC,                 KC_RPRN, KC_LPRN)
+COMB(NAV_BS,       KC_BSPC,                 KC_UP, KC_DOWN)
+COMB(NUM_ESC,      KC_ESC,                  KC_5, KC_6)
+COMB(SYM_ESC,      KC_ESC,                  KC_QUES, KC_EXLM)
+COMB(NUM_NAV,      MO(_NAV_),               KC_4, KC_5)
+COMB(SYM_NAV,      MO(_NAV_),               KC_DLR,  KC_QUES)
+
+COMB(DEFAULT_COMBO_END,  XXXXXXX,  XXXXXXX)
+// clang-format on
