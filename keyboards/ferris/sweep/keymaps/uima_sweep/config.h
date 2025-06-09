@@ -1,7 +1,7 @@
 #pragma once
 
 // Tap Hold
-#define TAPPING_TERM 200
+#define TAPPING_TERM 150
 #define PERMISSIVE_HOLD
 #define CHORDAL_HOLD
 #define QUICK_TAP_TERM 0 /* Set to 0 to disable the Quick Tap Term that repeate the key when user holds a key after tapping it */
