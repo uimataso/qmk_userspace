@@ -21,13 +21,13 @@ COMB(DEF_HELP,     ST_HELP,                 KC_W, KC_E, KC_R)        // --help
 
 COMB(DEF_QUOT,     KC_QUOT,                 KC_M, KC_COMM)           // '
 COMB(DEF_SCLN,     KC_SCLN,                       KC_COMM, KC_DOT)   // ;
-COMB(DEF_EXLM,     KC_EXLM,                 KC_M, KC_COMM, KC_DOT)   // !
-COMB(DEF_QUES,     KC_QUES,                 KC_M,          KC_DOT)   // ?
+COMB(DEF_PIPE,     KC_PIPE,                 KC_M, KC_COMM, KC_DOT)   // |
+COMB(DEF_AMPR,     KC_AMPR,                 KC_M,          KC_DOT)   // &
 
 COMB(DEF_DQUO,     KC_DQUO,                 KC_X, KC_C)              // "
 COMB(DEF_Z,        KC_Z,                          KC_C, NA_V)        // Z
-COMB(DEF_PIPE,     KC_PIPE,                 KC_X, KC_C, NA_V)        // |
-COMB(DEF_AMPR,     KC_AMPR,                 KC_X,       NA_V)        // &
+COMB(DEF_EXLM,     KC_EXLM,                 KC_X, KC_C, NA_V)        // !
+COMB(DEF_QUES,     KC_QUES,                 KC_X,       NA_V)        // ?
 
 COMB(NUM_BS,       KC_BSPC,                 KC_PLUS, KC_MINS)
 COMB(SYM_BS,       KC_BSPC,                 KC_RPRN, KC_LPRN)
