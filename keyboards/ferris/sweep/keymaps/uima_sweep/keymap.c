@@ -63,21 +63,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_NUM_] = LAYOUT(
         XXXXXXX, KC_7,    KC_8,    KC_9,    KC_TILD,      KC_PIPE, KC_CIRC, KC_ASTR, KC_SLSH, XXXXXXX,
         KC_GT,   KC_4,    KC_5,    KC_6,    KC_0,         KC_AMPR, KC_PLUS, KC_MINS, KC_EQL,  KC_PERC,
-        KC_LT,   KC_1,    KC_2,    KC_3,    KC_EXLM,      _______, KC_RBRC, KC_LBRC, KC_DOT,  KC_SLSH,
+        KC_LT,   KC_1,    KC_2,    KC_3,    KC_EXLM,      KC_COMM, KC_RBRC, KC_LBRC, KC_DOT,  KC_SLSH,
                                    _______, _______,      _______, _______
     ),
 
     [_NAV_] = LAYOUT(
         XXXXXXX, KC_F7,   KC_F8,   KC_F9,   KC_F10,       KC_HOME, KC_PGDN, KC_PGUP, KC_END,  XXXXXXX,
         KC_PSCR, KC_F4,   KC_F5,   KC_F6,   KC_F11,       KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
-        _______, KC_F1,   KC_F2,   KC_F3,   KC_F12,       S_LEFT,  S_DOWN,  S_UP,    S_RGHT, _______,
+        _______, KC_F1,   KC_F2,   KC_F3,   KC_F12,       S_LEFT,  S_DOWN,  S_UP,    S_RGHT,  _______,
                                    XXXXXXX, _______,      _______, XXXXXXX
     ),
 
     [_FUN_] = LAYOUT(
         XXXXXXX, TTY(7),  TTY(8),  TTY(9),  _______,      KC_HOME, KC_PGDN, KC_PGUP, KC_END,  XXXXXXX,
         KC_PSCR, TTY(4),  TTY(5),  TTY(6),  _______,      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
-        _______, TTY(1),  TTY(2),  TTY(3),  _______,      S_LEFT,  S_DOWN,  S_UP,    S_RGHT, _______,
+        _______, TTY(1),  TTY(2),  TTY(3),  _______,      S_LEFT,  S_DOWN,  S_UP,    S_RGHT,  _______,
                                    XXXXXXX, _______,      _______, XXXXXXX
     ),
 };
