@@ -13,6 +13,9 @@
 #define CAPS_WORD_INVERT_ON_SHIFT
 #define CAPS_WORD_IDLE_TIMEOUT 3000
 
+// Mouse Key
+#define MOUSEKEY_MOVE_DELTA 4
+
 // Oneshot
 #define ONESHOT_TAP_TOGGLE 0 /* Tapping this number of times holds the key until tapped once again. */
 #define ONESHOT_TIMEOUT 1500 /* Time (in ms) before the one shot key is released */
