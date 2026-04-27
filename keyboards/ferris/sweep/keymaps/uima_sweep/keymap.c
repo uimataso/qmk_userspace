@@ -75,8 +75,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_FUN_] = LAYOUT(
-        XXXXXXX, KC_F7,   KC_F8,   KC_F9,   KC_F10,       _______, TTY(7),  TTY(8),  TTY(9),  _______,
-        KC_PSCR, KC_F4,   KC_F5,   KC_F6,   KC_F11,       _______, TTY(4),  TTY(5),  TTY(6),  _______,
+        XXXXXXX, KC_F7,   KC_F8,   KC_F9,   KC_F10,       _______, _______, _______, _______, _______,
+        KC_PSCR, KC_F4,   KC_F5,   KC_F6,   KC_F11,       _______, _______, _______, _______, _______,
         _______, KC_F1,   KC_F2,   KC_F3,   KC_F12,       _______, TTY(1),  TTY(2),  TTY(3),  _______,
                                    XXXXXXX, _______,      _______, XXXXXXX
     ),
