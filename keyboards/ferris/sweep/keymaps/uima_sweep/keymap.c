@@ -37,8 +37,6 @@ enum custom_keycodes_shortcut {
     HM_A = LGUI_T(KC_A), HM_S = LALT_T(KC_S), HM_D = LCTL_T(KC_D), HM_F = LSFT_T(KC_F),
     HM_J = RSFT_T(KC_J), HM_K = RCTL_T(KC_K), HM_L = RALT_T(KC_L), HM_P = RGUI_T(KC_P),
 
-    NA_V = LT(_NAV_, KC_V),
-
     S_LEFT = S(KC_LEFT),
     S_DOWN = S(KC_DOWN),
     S_UP   = S(KC_UP),
@@ -49,14 +47,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_DEF_] = LAYOUT(
         XXXXXXX, KC_W,    KC_E,    KC_R,    KC_T,         KC_Y,    KC_U,    KC_I,    KC_O,    XXXXXXX,
         HM_A,    HM_S,    HM_D,    HM_F,    KC_G,         KC_H,    HM_J,    HM_K,    HM_L,    HM_P,
-        KC_UNDS, KC_X,    KC_C,    NA_V,    KC_B,         KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,
+        KC_UNDS, KC_X,    KC_C,    KC_V,    KC_B,         KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,
                                  MO(_NAV_), SYM_SPC,      NUM_ENT, OSM(MOD_LSFT)
     ),
 
     [_SYM_] = LAYOUT(
         XXXXXXX, KC_TILD, KC_LT,   KC_GT,   KC_TILD,      KC_CIRC, KC_LCBR, KC_RCBR, KC_DLR,  XXXXXXX,
         KC_CIRC, KC_DLR,  KC_QUES, KC_EXLM, KC_GRV,       KC_AMPR, KC_LPRN, KC_RPRN, KC_SCLN, KC_PERC,
-        KC_UNDS, C(KC_X), C(KC_C), C(KC_V), KC_AT,        _______, KC_LBRC, KC_RBRC, KC_HASH, KC_BSLS,
+        KC_UNDS, KC_CUT,  KC_COPY, KC_PSTE, KC_AT,        _______, KC_LBRC, KC_RBRC, KC_HASH, KC_BSLS,
                                    _______, _______,      _______, _______
     ),
 
@@ -69,8 +67,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_NAV_] = LAYOUT(
         XXXXXXX, _______, MS_WHLU, MS_WHLD, _______,      KC_HOME, KC_PGDN, KC_PGUP, KC_END,  XXXXXXX,
-        _______, MS_BTN3, MS_BTN2, MS_BTN1, _______,      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
-        _______, _______, _______, _______, _______,      MS_LEFT, MS_DOWN, MS_UP,   MS_RGHT, _______,
+        KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, _______,      KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
+        _______, MS_BTN3, MS_BTN2, MS_BTN1, _______,      MS_LEFT, MS_DOWN, MS_UP,   MS_RGHT, _______,
                                    XXXXXXX, _______,      _______, XXXXXXX
     ),
 
