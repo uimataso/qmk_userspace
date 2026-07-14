@@ -6,7 +6,7 @@ COMB(DEF_CBS,      C(KC_BSPC),              HM_J, HM_K, HM_L)        // Ctrl-BS
 COMB(DEF_COLN,     KC_COLN,                       HM_K, HM_L)        // :
 COMB(DEF_DEL,      KC_DEL,                  KC_H, HM_J)              // DEL
 
-COMB(DEF_CTRL_B,   C(KC_B),                 HM_S, HM_D)              // C-b Tmux prefix
+COMB(DEF_CTRL_B,   A(KC_B),                 HM_S, HM_D)              // A-b Tmux prefix
 COMB(DEF_ESC,      KC_ESC,                        HM_D, HM_F)        // ESC
 COMB(DEF_CAP_WORD, QK_CAPS_WORD_TOGGLE,     HM_S,       HM_F)        // Cap word
 // COMB(DEF_IM,       A(C(S(KC_I))),           HM_S, HM_D, HM_F)        // Change Input Method
